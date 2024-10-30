@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../domains/api_service.dart';
-import '../../domains/todo_model.dart';
+import '../../domains/services/api_service.dart';
+import '../../domains/models/todo_model.dart';
 
 final taskListProvider = StateNotifierProvider<TaskListNotifier, TaskState>((ref) {
   return TaskListNotifier();

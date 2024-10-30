@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'todo_model.dart';
+import '../models/todo_model.dart';
 
 class ApiService {
   final String baseUrl = 'https://dummyjson.com/todos';
